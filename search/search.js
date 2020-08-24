@@ -17,7 +17,6 @@ angular.module('searchModule', [])
         $rootScope.song = "Song Name";
         $rootScope.url = $sce.trustAsResourceUrl("https://www.youtube.com/embed?v=dummy");
         $rootScope.quotesCounter = $rootScope.songs.length;
-        console.log($rootScope.songs);
         $scope.songsHolder = [];
         $scope.searchedSongs = $scope.songsHolder;
         for(key in $rootScope.songs){
