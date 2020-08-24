@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/aviad-mauda/youtube-quotes/issues"
   },
-  "homepage": "https://github.com/aviad-mauda/youtube-quotes#readme"
+  "homepage": "https://github.com/aviad-mauda/youtube-quotes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
