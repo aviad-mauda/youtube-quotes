@@ -1,0 +1,10 @@
+<div ng-controller="searchController">
+    <div id="searchContent">
+        <input type="text" placeholder="Search..." ng-model="searchValue" id="searchInput" ng-change="search()"></input>
+        <div ng-repeat="song in searchedSongs">
+            <div class="song" ng-click="playSong(song)">
+                {{song}}
+            </div>
+        </div>
+    </div>
+</div>

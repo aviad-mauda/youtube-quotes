@@ -1,0 +1,87 @@
+html{
+    width:100vw;
+    overflow: hidden;
+}
+
+header{
+    height: 14vh;
+    width: 99.25vw;
+    font-size: 7vh;
+    text-align: center;
+    line-height: 12vh;
+    border-bottom: 2px solid #000;
+}
+
+content{
+    width: 100vw;
+    height: 87vh;
+    display: block;
+    position: absolute;
+}
+
+search{
+    width: 29%;
+    background-color: #ddd;
+    height: 87vh;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+youtube{
+    float: right;
+    height: 85vh;
+    width: calc(71vw - 1px);
+}
+
+.iframe{
+    width: 67%;
+    position: relative;
+    margin-left: 1.5%;
+    height: 32vw;
+    max-height: 400px;
+}
+
+#searchContent{
+    padding: 0 5%;
+}
+
+#searchInput{
+    width: 100%;
+    font-size: 3vh;
+    margin-top: 5%;
+    padding: 1vh 0;
+}
+
+.song{
+    cursor: pointer;
+    width: 100%;
+    font-size: 3vh;
+    margin-top: 5%;
+    border-bottom: 1px grey solid;
+}
+
+.youtube-page{
+    position: absolute;
+    width: 100%;
+}
+
+.song-name{
+    font-size: 7vh;
+    padding: 1vh 2vw;
+}
+
+.quotes-title{
+    display: inline-block;
+    margin: 1vh 1.5vw;
+}
+
+.quotes-counter{
+    display: inline-block;
+    float: right;
+    padding-right: 30vw;
+    margin: 1vh 1.5vw;
+}
+
+.song-quote{
+    margin-left: 1.5vw;
+}

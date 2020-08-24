@@ -1,0 +1,18 @@
+<div ng-controller="youtubeController" class="youtube-page">
+    <div class="song-name">{{song}}</div>
+    <div class="iframe">
+        <iframe style="width:-webkit-fill-available; height:-webkit-fill-available;" ng-src="{{url}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div>
+        <div class="quotes-title">Quotes</div>  
+        <div class="quotes-counter">{{quotesCounter}} quotes</div>
+        <div class="song-quote">
+            <img>
+            <div>Quote #1 - {{quote1}}</div>
+        </div>
+        <div class="song-quote">
+            <img>
+            <div>Quote #2 - {{quote2}}</div>
+        </div>
+    </div>
+</div>
