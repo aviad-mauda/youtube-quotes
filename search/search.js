@@ -28,11 +28,10 @@ angular.module('searchModule', [])
         if($scope.searchValue == ""){
             $scope.searchedSongs = $scope.songsHolder;
         } else {
-            $scope.searchValue =  $scope.searchValue.toLowerCase();
-            $scope.searchedSongs = []; // TODO search only the results
+            $scope.searchedSongs = [];
             angular.forEach($scope.songsHolder, (song) => {
-                if(song.toLowerCase().indexOf($scope.searchValue) !== -1){
-                    $scope.searchedSongs.push(song); 
+                if(song.toLowerCase().indexOf($scope.searchValue.toLowerCase()) !== -1){
+                    $scope.searchedSongs.push(song);
                 }
             }) 
 
